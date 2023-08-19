@@ -6,7 +6,7 @@
     "password": "",
     "database": "node-app",
     "entities": [
-        "src/entity/*.ts"
+        "api/entity/*.ts"
     ],
     "logging": false,
     "synchronize": true

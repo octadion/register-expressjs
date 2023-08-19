@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.ts",
-    "server": "nodemon src/index.ts",
+    "start": "nodemon api/index.ts",
+    "server": "nodemon api/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
