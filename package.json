@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.ts",
+    "server": "nodemon src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -18,7 +19,8 @@
     "jsonwebtoken": "^9.0.1",
     "mysql2": "^3.6.0",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.3.17"
+    "typeorm": "^0.3.17",
+    "vercel": "^31.4.0"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
